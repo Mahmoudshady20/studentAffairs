@@ -1,5 +1,4 @@
 package studentaffers;
-import dao.DatabaseConnection;
 import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,6 +18,9 @@ public class StudentAffers extends Application {
 
     public static void main(String[] args) {
         //DatabaseConnection.connect();
+        Database dbObj=new Database(); // connection done automatically with every run ##
+        
+       
         launch(args);
         
     }

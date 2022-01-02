@@ -58,7 +58,7 @@
       <Button alignment="CENTER" mnemonicParsing="false" onAction="#calculategpa" text="Calculate" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7" />
       <ImageView fitHeight="70.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
          <image>
-            <Image url="file:/D:/StudentAffers/image/unnamed.png" />
+            <Image url="file:/D:/StudentAffers/studentAffairs/image/unnamed.png" />
          </image>
       </ImageView>
    </children>

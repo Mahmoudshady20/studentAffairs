@@ -13,7 +13,7 @@
    <children>
       <ImageView fx:id="im1" fitHeight="82.0" fitWidth="281.0" layoutX="554.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/D:/StudentAffers/image/unnamed.png" />
+            <Image url="file:/D:/StudentAffers/studentAffairs/image/unnamed.png" />
          </image>
       </ImageView>
 
@@ -119,9 +119,9 @@
       <Button layoutX="664.0" layoutY="392.0" mnemonicParsing="false" onAction="#Mainwindow" prefHeight="31.0" prefWidth="82.0" text="Main" />
       <Button layoutX="581.0" layoutY="392.0" mnemonicParsing="false" onAction="#registerAction" text="Register" />
       <Label layoutX="60.0" layoutY="262.0" text="Phone Number" />
-      <TextField layoutX="205.0" layoutY="257.0" prefHeight="31.0" prefWidth="250.0" promptText="Phone Number" />
-      <TextField layoutX="205.0" layoutY="99.0" prefHeight="31.0" prefWidth="256.0" promptText="Student Name" />
-      <TextField layoutX="205.0" layoutY="153.0" prefHeight="31.0" prefWidth="256.0" promptText="National ID" />
-      <TextField layoutX="202.0" layoutY="203.0" prefHeight="31.0" prefWidth="256.0" promptText="Email" />
+      <TextField fx:id="phoneNumberTextField" layoutX="205.0" layoutY="257.0" prefHeight="31.0" prefWidth="250.0" promptText="Phone Number" />
+      <TextField fx:id="studentNameTextField" layoutX="205.0" layoutY="99.0" prefHeight="31.0" prefWidth="256.0" promptText="Student Name" />
+      <TextField fx:id="nationalIdTextField" layoutX="205.0" layoutY="153.0" prefHeight="31.0" prefWidth="256.0" promptText="National ID" />
+      <TextField fx:id="emailTextField" layoutX="202.0" layoutY="203.0" prefHeight="31.0" prefWidth="256.0" promptText="Email" />
    </children>
 </AnchorPane>

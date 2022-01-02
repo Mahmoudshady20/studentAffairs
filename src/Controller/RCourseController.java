@@ -7,10 +7,28 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 public class RCourseController {
+     @FXML
+    private TextField course2TextField;
+
+    @FXML
+    private TextField course5TextField;
+
+    @FXML
+    private TextField course3TextField;
+
+    @FXML
+    private TextField course1TextField;
+    
+     @FXML
+    private TextField course4TextField;
+
+    @FXML
+    private TextField course6TextField;
         @FXML
     private GridPane registercoursewindow;
         @FXML

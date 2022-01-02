@@ -15,7 +15,7 @@
       <TextField layoutX="198.0" layoutY="211.0" promptText="National ID" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="392.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../image/unnamed.png" />
+            <Image url="file:/D:/StudentAffers/studentAffairs/image/unnamed.png" />
          </image>
       </ImageView>
       <Button layoutX="492.0" layoutY="341.0" mnemonicParsing="false" onAction="#GoToGpa" text="Next" />
