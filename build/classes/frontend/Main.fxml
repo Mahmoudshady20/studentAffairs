@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="mainwindow" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DFD3C3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <ImageView fitHeight="216.0" fitWidth="473.0" layoutX="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/StudentAffers/image/unnamed.png" />
+         </image></ImageView>
+      <ImageView fitHeight="101.0" fitWidth="154.0" layoutX="57.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/StudentAffers/image/gpa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="118.0" layoutX="412.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/StudentAffers/image/register.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="69.0" layoutY="342.0" mnemonicParsing="false" onAction="#GpaPage" text="GPA" />
+      <Button layoutX="434.0" layoutY="342.0" mnemonicParsing="false" onAction="#Registerpage" text="Register" />
+   </children>
+</AnchorPane>

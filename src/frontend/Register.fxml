@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="registerwindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="781.0" style="-fx-background-color: #DFD3C3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RegisterController">
+   <children>
+      <ImageView fx:id="im1" fitHeight="82.0" fitWidth="281.0" layoutX="554.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/StudentAffers/image/unnamed.png" />
+         </image>
+      </ImageView>
+
+            <HBox alignment="CENTER" layoutX="54.0" layoutY="297.0" prefHeight="46.0" prefWidth="638.0" spacing="30.0">
+         <children>
+            <Label text="Level :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="level1RadioButton" mnemonicParsing="false" prefHeight="20.0" prefWidth="71.0" text="Level 1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="levelsButtonsToggleGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="level2RadioButton" mnemonicParsing="false" text="Level 2" toggleGroup="$levelsButtonsToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="level3RadioButton" mnemonicParsing="false" text="Level 3" toggleGroup="$levelsButtonsToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="level4RadioButton" mnemonicParsing="false" text="Level 4" toggleGroup="$levelsButtonsToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="93.0" layoutY="343.0" prefHeight="46.0" prefWidth="561.0" spacing="18.0">
+         <children>
+            <Label text="Depatment :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="CsRadioButton" mnemonicParsing="false" text="CS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="departmentToggleGroup" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="ItRadioButton" mnemonicParsing="false" text="IT" toggleGroup="$departmentToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="IsRadioButton" mnemonicParsing="false" text="IS" toggleGroup="$departmentToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="OrRadioButton" mnemonicParsing="false" text="OR" toggleGroup="$departmentToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="SeRadioButton" mnemonicParsing="false" text="SE" toggleGroup="$departmentToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="BioRadioButton" mnemonicParsing="false" text="BIO" toggleGroup="$departmentToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="OtherRadioButton" mnemonicParsing="false" text="other" toggleGroup="$departmentToggleGroup">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </HBox>
+      <Label layoutX="62.0" layoutY="101.0" text="Student Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="155.0" text="National ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="205.0" text="Email">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="22.0" text="Register Students">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="664.0" layoutY="392.0" mnemonicParsing="false" onAction="#Mainwindow" prefHeight="31.0" prefWidth="82.0" text="Main" />
+      <Button layoutX="581.0" layoutY="392.0" mnemonicParsing="false" onAction="#registerAction" text="Register" />
+      <Label layoutX="60.0" layoutY="262.0" text="Phone Number" />
+      <TextField layoutX="205.0" layoutY="257.0" prefHeight="31.0" prefWidth="250.0" promptText="Phone Number" />
+      <TextField layoutX="205.0" layoutY="99.0" prefHeight="31.0" prefWidth="256.0" promptText="Student Name" />
+      <TextField layoutX="205.0" layoutY="153.0" prefHeight="31.0" prefWidth="256.0" promptText="National ID" />
+      <TextField layoutX="202.0" layoutY="203.0" prefHeight="31.0" prefWidth="256.0" promptText="Email" />
+   </children>
+</AnchorPane>

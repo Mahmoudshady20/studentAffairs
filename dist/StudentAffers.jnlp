@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="StudentAffers.jnlp">
+  <information>
+    <title>StudentAffers</title>
+    <vendor>pc</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="StudentAffers.jar" size="16677" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="37110" download="eager" />
+    <jar href="lib\javafx.base.jar" size="745861" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2545280" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="129482" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4252454" download="eager" />
+    <jar href="lib\javafx.media.jar" size="275923" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="88801" download="eager" />
+    <jar href="lib\javafx.web.jar" size="720357" download="eager" />
+    <jar href="lib\jrt-fs.jar" size="106287" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.22.jar" size="2389216" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="StudentAffers" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="studentaffers.StudentAffers"  name="StudentAffers" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="LoginGpa" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0E5CF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GoTogpa">
+   <children>
+      <Label layoutX="87.0" layoutY="125.0" text="Student Name" />
+      <Label layoutX="87.0" layoutY="216.0" text="National ID" />
+      <TextField layoutX="198.0" layoutY="120.0" promptText="Student Name" />
+      <TextField layoutX="198.0" layoutY="211.0" promptText="National ID" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="392.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/unnamed.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="492.0" layoutY="341.0" mnemonicParsing="false" onAction="#GoToGpa" text="Next" />
+   </children>
+</AnchorPane>
