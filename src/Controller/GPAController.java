@@ -7,6 +7,9 @@ import javafx.scene.layout.GridPane;
 import javax.swing.JOptionPane;
 
 public class GPAController {
+
+   
+       
     
     
     
@@ -26,14 +29,44 @@ public class GPAController {
     private TextField grade2;
 
     @FXML
-    private TextField grade1;
-    
-    
-       
+    private TextField grade1;  
 
+    @FXML
+    private  TextField course2TextField;
+
+    @FXML
+    private TextField course5TextField;
+
+    @FXML
+    static TextField studentNameTextField;
+
+    @FXML
+    private TextField course6TextField;
+
+    @FXML
+    private TextField course3TextField;
+
+    @FXML
+    private TextField course1TextField;
 
     @FXML
     private GridPane gpawindow;
+
+    @FXML
+    private TextField course4TextField;
+    
+   
+    
+     public static String studentNameInPublic;
+    public static String course1InPublic;
+    public static String course2InPublic;
+        public static String course3InPublic;
+            public static String course4InPublic;
+                public static String course5InPublic;
+         public static String course6InPublic;
+    
+       
+    
     
     @FXML
     void calculategpa(ActionEvent event) {

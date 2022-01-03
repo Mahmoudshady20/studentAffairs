@@ -10,8 +10,8 @@
 
 <GridPane fx:id="gpawindow" hgap="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F0E5CF;" vgap="10.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.GPAController">
   <columnConstraints>
-      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="128.0" minWidth="10.0" prefWidth="113.0" />
-      <ColumnConstraints hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="153.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
     <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="132.0" minWidth="10.0" prefWidth="129.0" />
     <ColumnConstraints hgrow="SOMETIMES" maxWidth="152.0" minWidth="10.0" prefWidth="145.0" />
   </columnConstraints>
@@ -29,32 +29,18 @@
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </padding>
    <children>
-      <Label text="Student Name" />
-      <Label text="Course 1" GridPane.rowIndex="1" />
-      <Label text="Course 2" GridPane.rowIndex="2" />
-      <Label text="Course 3" GridPane.rowIndex="3" />
-      <Label text="Course 4" GridPane.rowIndex="4" />
-      <Label text="Course 5" GridPane.rowIndex="5" />
-      <Label text="Course 6" GridPane.rowIndex="6" />
       <Label alignment="TOP_LEFT" text="Grade" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <Label text="Grade" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <Label text="Grade" GridPane.columnIndex="2" GridPane.rowIndex="3" />
       <Label text="Grade" GridPane.columnIndex="2" GridPane.rowIndex="4" />
       <Label text="Grade" GridPane.columnIndex="2" GridPane.rowIndex="5" />
       <Label text="Grade" GridPane.columnIndex="2" GridPane.rowIndex="6" />
-      <TextField GridPane.columnIndex="1" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="4" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="5" />
-      <TextField GridPane.columnIndex="1" GridPane.rowIndex="6" />
-      <TextField fx:id="grade1" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-      <TextField fx:id="grade2" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-      <TextField fx:id="grade3" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-      <TextField fx:id="grade4" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-      <TextField fx:id="grade5" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-      <TextField fx:id="grade6" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+      <TextField fx:id="grade1" promptText="grade1" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <TextField fx:id="grade2" promptText="grade2" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <TextField fx:id="grade3" promptText="grade3" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <TextField fx:id="grade4" promptText="grade4" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <TextField fx:id="grade5" promptText="grade5" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <TextField fx:id="grade6" promptText="grade6" GridPane.columnIndex="3" GridPane.rowIndex="6" />
       <Button alignment="CENTER" mnemonicParsing="false" onAction="#calculategpa" text="Calculate" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7" />
       <ImageView fitHeight="70.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
          <image>

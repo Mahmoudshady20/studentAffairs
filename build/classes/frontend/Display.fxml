@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="DisplayWindow" prefHeight="599.0" prefWidth="1676.0" style="-fx-background-color: #DFD3C3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DisplayController">
+   <children>
+      <ImageView fitHeight="80.0" fitWidth="211.0" layoutX="731.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/StudentAffers/studentAffairs/image/unnamed.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tabel" layoutY="199.0" prefHeight="400.0" prefWidth="1740.0">
+         <columns>
+            <TableColumn fx:id="name" minWidth="0.0" prefWidth="158.0" text="name" />
+            <TableColumn fx:id="level" minWidth="0.0" prefWidth="71.0" text="level" />
+            <TableColumn fx:id="department" minWidth="0.0" prefWidth="99.0" text="department" />
+            <TableColumn fx:id="email" minWidth="0.0" prefWidth="85.0" text="Email" />
+            <TableColumn fx:id="phone" minWidth="4.0" prefWidth="91.0" text="Phone" />
+            <TableColumn fx:id="course1" minWidth="0.0" prefWidth="75.0" text="course1" />
+            <TableColumn fx:id="course2" prefWidth="73.0" text="course2" />
+            <TableColumn fx:id="course3" prefWidth="96.0" text="course3" />
+            <TableColumn fx:id="course4" prefWidth="132.0" text="course4" />
+            <TableColumn fx:id="course5" prefWidth="140.0" text="course5" />
+            <TableColumn fx:id="course6" minWidth="0.0" prefWidth="135.0" text="course6" />
+            <TableColumn fx:id="nationalid" prefWidth="189.0" text="national ID" />
+         </columns>
+      </TableView>
+      <TextField fx:id="nationalIdForsearch" layoutX="177.0" layoutY="49.0" promptText="Enter National ID" />
+      <Label layoutX="72.0" layoutY="54.0" text="Search" />
+      <Button fx:id="buttonsearch" layoutX="216.0" layoutY="105.0" mnemonicParsing="false" text="Search" />
+      <Button layoutX="1210.0" layoutY="39.0" mnemonicParsing="false" onAction="#mainwindow" text="Main" />
+   </children>
+   <opaqueInsets>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </opaqueInsets>
+</AnchorPane>

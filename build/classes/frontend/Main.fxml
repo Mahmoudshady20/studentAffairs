@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.image.*?>
@@ -27,5 +28,11 @@
       </ImageView>
       <Button layoutX="69.0" layoutY="342.0" mnemonicParsing="false" onAction="#GpaPage" text="GPA" />
       <Button layoutX="434.0" layoutY="342.0" mnemonicParsing="false" onAction="#Registerpage" text="Register" />
+      <ImageView fitHeight="101.0" fitWidth="130.0" layoutX="244.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/StudentAffers/studentAffairs/image/dispaly3.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="261.0" layoutY="342.0" mnemonicParsing="false" onAction="#GoToDisplay" text="Display" />
    </children>
 </AnchorPane>

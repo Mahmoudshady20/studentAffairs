@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="StudentAffers.jar" size="16954" download="eager" />
+    <jar href="StudentAffers.jar" size="21293" download="eager" />
     <jar href="lib\javafx-swt.jar" size="37110" download="eager" />
     <jar href="lib\javafx.base.jar" size="745861" download="eager" />
     <jar href="lib\javafx.controls.jar" size="2545280" download="eager" />

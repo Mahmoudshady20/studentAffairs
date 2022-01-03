@@ -33,4 +33,15 @@ public class MainController {
         gpa.setScene(s2);
         gpa.show();
     }
+    @FXML
+    void GoToDisplay(ActionEvent event) throws IOException {
+        mainwindow.getScene().getWindow().hide();
+        Parent diss;
+        diss = FXMLLoader.load(getClass().getResource("/frontend/Display.fxml"));
+        Stage dis = new Stage();
+        Scene s4 = new Scene(diss);
+        dis.setTitle("Display");
+        dis.setScene(s4);
+        dis.show();
+    }
 }
